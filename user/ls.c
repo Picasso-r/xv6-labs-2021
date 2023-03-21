@@ -66,6 +66,7 @@ ls(char *path)
       printf("%s %d %d %d\n", fmtname(buf), st.type, st.ino, st.size);
     }
     break;
+	
   }
   close(fd);
 }
